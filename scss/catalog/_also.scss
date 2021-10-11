@@ -1,0 +1,61 @@
+.also {
+    padding-bottom: 103px;
+}
+.also-container {
+
+}
+.also-title {
+
+}
+.also-list {
+    display: grid;
+    gap: 40px 20px;
+    grid-template-columns: repeat(6, 1fr);
+    justify-items: center;
+}
+.also-item {
+    position: relative;
+    border-radius: 3px;
+    grid-column: span 2;
+    &:hover {
+        background-color: $main;
+    }
+    &:hover .also-item-button{
+        display: block;
+    }
+}
+.also-item-button {
+    display: none;
+    height: 26px;
+    width: 26px;
+    border-radius: 3px;
+    background: #e0353e url(../../img/index/icon-arrow-right.svg) no-repeat center/7px;
+    transition: background-color 0.1s linear;
+
+    &:hover {
+        background-color: $green1;
+    }
+    &:active {
+        transform: scale(0.98);
+    }
+}
+
+
+@media screen and (max-width: 1024px) {
+    .also-list {
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .also-item:last-child {
+        grid-column: 2 / 4;
+    }
+}
+
+
+@media screen and (max-width: 425px) {
+    .also-list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .also-item:last-child {
+        grid-column: span 2;
+    }
+}

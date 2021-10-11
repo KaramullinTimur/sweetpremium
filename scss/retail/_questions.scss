@@ -1,0 +1,80 @@
+.questions {
+    padding: 115px 0 96px;
+    background: rgb(26, 13, 3) url('../../img/backgrounds/bg-questions.jpg') no-repeat;
+    background-size: cover;
+}
+.questions-title {
+    margin-bottom: 15px;
+    max-width: 555px;
+    font-weight: 300;
+    font-size: 57px;
+    color: $white;
+}
+.questions-subtitle {
+    margin-bottom: 64px;
+    max-width: 555px;
+    font-weight: 300;
+    font-size: 20px;
+    color: $text-light;
+}
+.questions-form {
+    max-width: 458px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.questions-form-input {
+    margin-right: 12px;
+    margin-bottom: 16px;
+    padding: 0 25px;
+    max-width: 198px;
+    height: 50px;
+    font-weight: 100;
+    font-size: 18px;
+    color: $text-sand-dark2;
+}
+.questions-form-button {
+    padding: 0 29px;
+    height: 50px;
+    font-weight: 500;
+    font-size: 18px;
+    color: $white;
+    background-color: $red1;
+    transition: background-color 0.2s linear;
+    &:hover {
+        background-color: $text-green-light;
+    }
+}
+
+@media screen and (max-width: 1920px) {
+    .questions {
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+@media screen and (max-width: 964px) {
+    .questions {
+        background-position: -500px center;
+    }
+}
+
+
+@media screen and (max-width: 425px) {
+    .questions {
+        padding: 50px 0 60px;
+    }
+    .questions-title {
+        text-align: center;
+    }
+    .questions-subtitle {
+        text-align: center;
+    }
+    .questions-form {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .questions-form-input {
+        max-width: 100%;
+        margin-right: 0;
+    }
+}

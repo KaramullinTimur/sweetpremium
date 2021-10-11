@@ -1,0 +1,77 @@
+.categories {
+    margin-right: 30px;
+    padding: 40px 15px 44px;
+    width: 263px;
+    flex-shrink: 0;
+    border-radius: 3px;
+    box-shadow: 0 0 20px $shadow;
+}
+.categories-list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+.categories-item {
+
+}
+.categories-link {
+    display: block;
+    height: 33px;
+    padding-left: 38px;
+    display: flex;
+    align-items: center;
+    background: no-repeat left center;
+    
+    &:hover>.categories-name {
+        text-decoration: underline;
+    }
+    &.active {
+        cursor: default;
+        pointer-events: none;
+        text-decoration: none; 
+    }
+}
+.categories-name {
+    font-weight: 300;
+    font-size: 17px;
+    color: $text-dark2;
+    &.active {
+        font-weight: 700;
+        color: $text-red;
+    }
+}
+.categories-link_confectionary {
+    background-image: url('../../img/catalog/categories-confectionery.svg');
+}
+.categories-link_cakes {
+    background-image: url('../../img/catalog/categories-cakes.svg');
+}
+.categories-link_pasta {
+    background-image: url('../../img/catalog/categories-pasta.svg');
+}
+.categories-link_icecream {
+    background-image: url('../../img/catalog/categories-icecream.svg');
+}
+.categories-link_cheesecakes {
+    background-image: url('../../img/catalog/categories-cheesecakes.svg');
+}
+
+
+@media screen and (max-width: 768px) {
+    .categories {
+        margin-bottom: 44px;
+        padding: 25px;
+        width: 100%;
+    }
+    .categories-list {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        column-gap: 22px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+
+}
+

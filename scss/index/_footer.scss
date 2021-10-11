@@ -1,0 +1,162 @@
+.footer {
+    padding: 51px 0 60px;
+    background-color: $bg-footer;
+    color: $white;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 60px;
+}
+.footer-main {
+    min-width: 165px;
+}
+.footer-main-logo {
+    display: block;
+    margin-bottom: 34px;
+    width: 111px;
+    height: 68px;
+    background: url('../../img/logos/logo-white.png') no-repeat center / 100%;
+    cursor: pointer;
+}
+.footer-main-copyright {
+    max-width: 165px;
+    margin-bottom: 34px;
+    font-weight: 100;
+    font-size: 15px;
+    line-height: 23px;
+    color: $text-sand-light;
+}
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+.footer-item {
+    
+}
+.footer-link {
+    min-height: 33px;
+    display: flex;
+    align-items: center;
+    padding-left: 45px;
+    background: url('../../img/icons/icon-instagram.png') no-repeat left center / 33px;
+}
+.footer-link-text {
+    font-weight: 100;
+    font-size: 16px;
+    color: $white;
+    border-bottom: 1px solid white;
+    &:hover {
+        opacity: 0.6;
+    }
+}
+.footer-contacts-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+    column-gap: 12px;
+}
+.footer-contacts {
+    padding-top: 23px;
+}
+.footer-contacts-title {
+    margin-bottom: 32px;
+    font-weight: 500;
+    font-size: 18px;
+    color: $text-green-light;
+}
+.footer-contacts-phone {
+    display: block;
+    margin-bottom: 14px;
+    font-weight: 100;
+    font-size: 17px;
+    color: $white;
+    &:hover {
+        opacity: 0.6;
+    }
+}
+.footer-contacts-email {
+    display: block;
+    margin-bottom: 14px;
+    font-weight: 100;
+    font-size: 17px;
+    text-decoration: underline;
+    color: $white;
+    &:hover {
+        opacity: 0.6;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-main {
+       width: 100%;
+    }
+    .footer-main-wrapper {
+        display: flex;
+        justify-content: center;
+        column-gap: 36px;
+    }
+    .footer-links {
+        margin-bottom: 24px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .footer-contacts-wrapper {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 24px;
+    }
+    .footer-contacts {
+        text-align: center;
+    }
+    .footer-contacts-phone,
+    .footer-contacts-email {
+        margin-bottom: 10px;
+        font-size: 14px;
+    }
+    
+}
+
+@media screen and (max-width: 425px) {
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-main-wrapper {
+        display: flex;
+        justify-content: center;
+        column-gap: 26px;
+    }
+    .footer-main-copyright {
+        text-align: center;
+        font-size: 14px;
+    }
+    .footer-links {
+        margin-bottom: 16px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .footer-link {
+        min-height: 24px;
+        padding-left: 35px;
+        background-size: 24px;
+    }
+    .footer-link-text {
+        font-size: 14px;
+    }
+    
+    .footer-contacts-wrapper {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .footer-contacts-title {
+        margin-bottom: 18px;
+    }
+    
+}

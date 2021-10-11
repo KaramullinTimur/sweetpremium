@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/splide.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header-top"> 
+            <div class="header-top-container container">
+                <div class="header-logo">
+                    <a href="../index.html" class="header-logo-link"></a>
+                </div>
+                <div class="header-select" tabindex="0">
+                    Для оптовых покупателей
+                    <ul class="header-select-options">
+                        <li class="header-select-option">
+                            <a href="#" class="header-select-option-link" tabindex="0"> Для оптовых покупателей</a> 
+                        <li class="header-select-option">
+                            <a href="./retail.html" class="header-select-option-link" tabindex="0">Для розничных покупателей</a>
+                        </li>  
+                    </ul>
+                </div>
+                <div class="header-contacts">
+                    <a href="mailto:sweet@mail.ru" class="header-contacts-email">
+                        <div class="header-contacts-email-icon"></div>
+                        <div class="header-contacts-email-text">
+                            e-mail: <span class="header-contacts-email-adress">sweet@mail.ru</span>
+                        </div>
+                    </a>
+                    <a href="tel:+7 707 044 19 07" class="header-contacts-phone">
+                        <div class="header-contacts-phone-icon"></div>
+                        <div class="header-contacts-phone-number">
+                            +7 707 044 19 07
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="header-nav">
+            <nav class="header-nav-container container">
+                <button class="header-hamburger">
+                    <div class="header-hamburger-line"></div>
+                    <div class="header-hamburger-line"></div>
+                    <div class="header-hamburger-line"></div>
+                </button>
+                <ul class="header-nav-list">
+                    <li class="header-nav-list-close">
+                        <button class="header-nav-list-button"></button>
+                    </li>
+                    <li class="header-nav-item">
+                        <a href="../index.html" class="header-nav-link">Главная</a>
+                    </li>
+                    <li class="header-nav-item">
+                        <a href="./catalog.html" class="header-nav-link">Каталог</a>
+                    </li>
+                    <li class="header-nav-item">
+                        <a href="#" class="header-nav-link">Доставка</a>
+                    </li>
+                    <li class="header-nav-item">
+                        <a href="#" class="header-nav-link">Контакты</a>
+                    </li>
+                    <li class="header-nav-item">
+                        <a href="#" class="header-nav-link">Условия хранения, транспортировки, разморозки</a>
+                    </li>
+                </ul>
+                <div class="header-nav-divider"></div>
+                <a href="#" class="header-cart">
+                    <div class="header-cart-icon"></div>
+                    <div class="header-cart-counter">0</div>
+                    <div class="header-cart-text">Корзина пуста</div>
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="breadcrumbs">
+        <div class="container">
+            <ul class="breadcrumbs-list">
+                <li class="breadcrumbs-item">
+                    <a href="../index.html" class="breadcrumbs-link">Главная</a>
+                </li>
+                <li class="breadcrumbs-item">
+                    <a href="#" class="breadcrumbs-link">Торты</a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <main class="main">
+        <div class="container-main container">
+
+            <section class="categories">
+                <ul class="categories-list">
+                    <li class="categories-item">
+                        <a href="#" onclick="event.preventDefault()" class="categories-link categories-link_confectionary">
+                            <div class="categories-name">Кондитерские изделия</div>
+                        </a>
+                    </li>
+                    <li class="categories-item">
+                        <a href="#" class="categories-link categories-link_cakes active">
+                            <div class="categories-name active">Торты</div>
+                        </a>
+                    </li>
+                    <li class="categories-item">
+                        <a href="#" onclick="event.preventDefault()" class="categories-link categories-link_pasta">
+                            <div class="categories-name">Паста</div>
+                        </a>
+                    </li>
+                    <li class="categories-item">
+                        <a href="#" onclick="event.preventDefault()" class="categories-link categories-link_icecream">
+                            <div class="categories-name">Мороженое</div>
+                        </a>
+                    </li>
+                    <li class="categories-item">
+                        <a href="#" onclick="event.preventDefault()" class="categories-link categories-link_cheesecakes">
+                            <div class="categories-name">Чизкейки</div>
+                        </a>
+                    </li>
+                </ul>
+            </section>
+
+            <div class="container-grow">
+
+                <section class="product">
+
+                    <h2 class="product-title title-h2">Торт Наполеон</h2>
+                    <div class="product-card">
+
+                        <div class="product-card-slider splide" id="splide_product">
+                            <div class="splide__track">
+                                <ul class="splide__list">
+                                    <li class="splide__slide product-card-item">
+                                        <a href="" class="product-card-link">
+                                            <img src="../img/products/cakes/cake-7.jpg" alt="" class="product-card-img">
+                                        </a>    
+                                    </li>
+                                    <li class="splide__slide product-card-item">
+                                        <a href="" class="product-card-link"></a>
+                                            <img src="../img/products/cakes/cake-4.jpg" alt="" class="product-card-img">
+                                        </a>
+                                    </li>
+                                    <li class="splide__slide product-card-item">
+                                        <a href="" class="product-card-link">
+                                            <img src="../img/products/cakes/cake-3.jpg" alt="" class="product-card-img">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="splide__arrows">
+                                <button class="splide__arrow splide__arrow--prev"></button>
+                                <div class="product-card-slider-counter">
+                                    <span class="product-card-slider-current">1</span>
+                                    /
+                                    <span class="product-card-slider-number">6</span>
+                                </div>
+                                <button class="splide__arrow splide__arrow--next"></button>
+                            </div>
+                        </div>
+                                
+                        <div class="product-card-info">
+                            <p class="product-card-paragraph">
+                                Лакомство это представляет собой воздушный торт из многих листов тонкого и хрустящего теста
+                            </p>
+                            <div class="product-card-controls">
+                                <button class="product-card-button button_big">
+                                    Купить
+                                </button>
+                                <div class="product-card-input-wrapper">
+                                    <button class="product-card-input-up"></button>
+                                    <button class="product-card-input-down"></button>
+                                    <input type="text" class="product-card-input input" value="1">
+                                </div>    
+                            </div>
+                            <table class="product-card-table">
+                                <tr class="product-card-table-row">
+                                    <td class="product-card-table-param">
+                                        <span class="product-card-table-param-name">Вес (кг)</span> 
+                                        <span class="product-card-table-dots">...................................................................</span>
+                                    </td>
+                                    <td class="product-card-table-value">1,66</td>
+                                </tr>
+                                <tr class="product-card-table-row">
+                                    <td class="product-card-table-param">
+                                        <span class="product-card-table-param-name">Кол-во порций</span> 
+                                        <span class="product-card-table-dots">...................................................................</span>
+                                    </td>
+                                    <td class="product-card-table-value">12</td>
+                                </tr>
+                                <tr class="product-card-table-row">
+                                    <td class="product-card-table-param">
+                                        <span class="product-card-table-param-name">Вес порции (гр)</span> 
+                                        <span class="product-card-table-dots">...................................................................</span>
+                                    </td>
+                                    <td class="product-card-table-value">117</td>
+                                </tr>
+                                <tr class="product-card-table-row">
+                                    <td class="product-card-table-param">
+                                        <span class="product-card-table-param-name">Производство</span> 
+                                        <span class="product-card-table-dots">...................................................................</span>
+                                    </td>
+                                    <td class="product-card-table-value">Россия</td>
+                                </tr>
+                                <tr class="product-card-table-row">
+                                    <td class="product-card-table-param">
+                                        <span class="product-card-table-param-name">Артикул</span> 
+                                        <span class="product-card-table-dots">...................................................................</span>
+                                    </td>
+                                    <td class="product-card-table-value">4Cn-7</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+
+                    <div class="product-description">
+                        <div class="product-description-filter">
+                            <ul class="filter-list">
+                                <li class="filter-item">
+                                    <button class="filter-button active">Состав</button>
+                                </li>
+                                <li class="filter-item">
+                                    <button class="filter-button">Пищевая ценность</button>
+                                </li>
+                                <li class="filter-item">
+                                    <button class="filter-button">Разморозка</button>
+                                </li>
+                            </ul>
+                        </div>
+                        <p class="product-description-paragraph">
+                            Мука пшеничная хлебопекарная высшего сорта, паста сметанная с заменителем молочного жира (молоко обезжиренное, сливки из коровьего молока, заменитель молочного жира (рафинированные, дезодорированные растительные масла: пальмовые и его фракции, подсолнечное, эмульгаторы (моно- и диглицериды жирных кислот, летицины), антиокислитель - концентрат смеси токоферолов , краситель - каротины), молоко сухое обезжиренное, сыворотка подсырная, эмульгатор - дикрахмалфосфат ацетилированный, концентрат молочного белка, стабилизатор - моно- и диглицериды жирных кислот, регулятор кислотности - орто-фосфат натрия 3-замещенный, загуститель - метилцеллюлоза, консервант – сорбат калия, закваска), спред растительно-сливочный.
+                        </p>
+                    </div>
+                    
+
+                </section>
+                
+                <section class="also">
+                    <div class="also-container">
+                        <h2 class="also-title title-h2">Смотрите также</h2>
+                        <ul class="also-list">
+                            <li class="also-item card">
+                                <a href="./product.html" class="card-link">
+                                    <div class="card-pic">
+                                        <img src="../img/products/cakes/cake-5.jpg" alt="" class="card-img">
+                                    </div>
+                                    <div class="card-body">
+                                        <h3 class="card-title">
+                                            Набор пирожных Prestige Karamel 
+                                        </h3>
+                                        <div class="card-price">
+                                            2580
+                                            <span class="card-currency">тнг.</span> 
+                                        </div>
+                                    </div>
+                                </a>
+                                <button class="also-item-button card-button"></button>
+                            </li>
+                            <li class="also-item card">
+                                <a href="./product.html" class="card-link">
+                                    <div class="card-pic">
+                                        <img src="../img/products/cakes/cake-2.jpg" alt="" class="card-img">
+                                    </div>
+                                    <div class="card-body">
+                                        <h3 class="card-title">
+                                            Набор пирожных Prestige Karamel 
+                                        </h3>
+                                        <div class="card-price">
+                                            2580
+                                            <span class="card-currency">тнг.</span> 
+                                        </div>
+                                    </div>
+                                </a>
+                                <button class="also-item-button card-button"></button>
+                            </li>
+                            <li class="also-item card">
+                                <a href="./product.html" class="card-link">
+                                    <div class="card-pic">
+                                        <img src="../img/products/cakes/cake-6.jpg" alt="" class="card-img">
+                                    </div>
+                                    <div class="card-body">
+                                        <h3 class="card-title">
+                                            Набор пирожных Prestige Karamel 
+                                        </h3>
+                                        <div class="card-price">
+                                            2580
+                                            <span class="card-currency">тнг.</span> 
+                                        </div>
+                                    </div>
+                                </a>
+                                <button class="also-item-button card-button"></button>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+                
+            </div>
+        </div>
+    </main>
+
+    
+
+    <footer class="footer">
+        <div class="footer-container container">
+            <div class="footer-main">
+                <div class="footer-main-wrapper">
+                    <a class="footer-main-logo"></a>
+                    <div class="footer-main-copyright">
+                        © Sweet Premium/ <br>
+                        Все права защищены, <br>
+                        2017-2021
+                    </div>
+                </div>
+                <ul class="footer-links">
+                    <li class="footer-item">
+                        <a href="" class="footer-link">
+                            <span class="footer-link-text">Мы в Инстраграм</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-contacts-wrapper">
+                <div class="footer-contacts">
+                    <h3 class="footer-contacts-title">Офис г. Алматы:</h3>
+                    <a href="tel:+7(727)-291-29-25" class="footer-contacts-phone">+7(727)-291-29-25</a>
+                    <a href="tel:+7(707)-044-19-07" class="footer-contacts-phone">+7(707)-044-19-07</a>
+                </div>
+                <div class="footer-contacts">
+                    <h3 class="footer-contacts-title">Менеджеры г. Алматы:</h3>
+                    <a href="tel:+7(707)-145-80-80" class="footer-contacts-phone">+7(707)-145-80-80</a>
+                    <a href="tel:+7(707)-044-19-06" class="footer-contacts-phone">+7(707)-044-19-06</a>
+                    <a href="tel:+7(707)-189-53-25" class="footer-contacts-phone">+7(707)-189-53-25</a>
+                    <a href="tel:+7(747)-253-12-94" class="footer-contacts-phone">+7(747)-253-12-94</a>
+                    <a href="mailto:info@sweetpremium.kz" class="footer-contacts-email">info@sweetpremium.kz</a>
+                </div>
+                <div class="footer-contacts">
+                    <h3 class="footer-contacts-title">Менеджеры г. Астана:</h3>
+                    <a href="tel:+7(707)-040-54-77" class="footer-contacts-phone">+7(707)-040-54-77</a>
+                    <a href="tel:+7(707)-040-54-74" class="footer-contacts-phone">+7(707)-040-54-74</a>
+                    <a href="mailto:astana1@sweetpremium.kz" class="footer-contacts-email">astana1@sweetpremium.kz</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/header-hamburger.js"></script>
+    <script src="../js/header-select.js"></script>
+    <script src="../js/product-slider.js"></script>
+    <script src="../js/splide.min.js"></script>
+    <script src="../js/custom-input-number.js"></script>
+</body>
+</html>

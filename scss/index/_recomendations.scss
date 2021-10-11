@@ -1,0 +1,151 @@
+.recomendations {
+    padding: 64px 0 53px;
+}
+.recomendations-container {
+    
+}
+
+.recomendations-top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 41px;
+}
+.recomendations-title {
+    line-height: 100%;
+    margin-bottom: 0;
+}
+
+.recomendations-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    gap: 29px;
+}
+.recomendations-item {
+    position: relative;
+    max-width: 263px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 3px;
+    background-color: $white;
+    box-shadow: 0 0 22px $shadow;
+
+    &:hover {
+        background-color: $main;
+    }
+    &:hover>.recomendations-item-button  {
+        display: block;
+    }
+}
+.recomendations-item-pic {
+    margin-bottom: 28px;
+}
+.recomendations-item-img {
+    width: 100%;
+}
+.recomendations-item-title {
+    margin-bottom: 28px;
+    margin-left: 21px;
+    font-weight: 100;
+    font-size: 17px;
+}
+.recomendations-item-price {
+    margin-top: auto;
+    margin-bottom: 29px;
+    margin-left: 21px;
+    font-weight: 700;
+    font-style: 22px;
+}
+.recomendations-item-currency {
+    margin-left: 8px;
+    font-weight: 100;
+    font-style: 18px;
+}
+.recomendations-link {
+    color: $text-dark2;
+}
+.recomendations-item-button {
+    
+}
+
+.recomendations-item {
+    &:hover {
+        background-color: $main;
+    }
+    &:hover .recomendations-item-button {
+        display: block;
+    }
+}
+.recomendations-item-button {
+    display: none;
+    height: 26px;
+    width: 26px;
+    border-radius: 3px;
+    background: $red1 url('../../img/icons/icon-button-right.png') no-repeat center / 7px;
+
+    &:hover {
+        background-color: $green1;
+    }
+    &:active {
+        transform: scale(0.98);
+    }
+}
+
+
+.recomendations-button {
+    display: block;
+    margin: 0 auto;
+    margin-top: 47px;   
+    font-weight: 300;
+    font-size: 17px;
+    border-radius: 5px;
+    border: 2px solid $red1;
+    transition: background-color 0.1s linear, color 0.1s linear;
+
+    &:hover {
+        color: $white;
+        background-color: $red1; 
+    }
+    &:focus {
+        outline: 2px solid black;    
+    }
+}
+
+
+@media screen and (max-width: 1024px) {
+    .recomendations-list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .recomendations {
+        padding: 36px 0 43px;
+    }
+    .recomendations-top {
+        flex-direction: column;
+        margin-bottom: 28px;
+    }
+    .recomendations-title {
+        margin-bottom: 28px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .recomendations {
+        padding: 40px 0 35px;
+    }
+    .recomendations-list {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .recomendations-item {
+        background-color: $main;
+    } 
+    .recomendations-item-button  {
+        display: block;
+    }
+    .recomendations-button {
+        margin-top: 27px;
+    }
+}

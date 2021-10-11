@@ -1,0 +1,121 @@
+.products {
+    padding-bottom: 40px;
+}
+.products_novelty {
+    padding-top: 59px;
+}
+.products_discount {
+    padding-bottom: 73px;
+}
+.container {
+
+}
+.products-title {
+
+}
+.products-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+}
+.products-item {
+    &:hover {
+        background-color: $main;
+    }
+    &:hover .products-item-button {
+        background: $red1 url('../../img/icons/icon-button-plus.png') no-repeat center / 14px;
+    }
+}
+.products-item-button {
+    width: 41px;
+    height: 41px;
+    border-radius: 2px;
+    background: $green1 url('../../img/icons/icon-button-cart.png') no-repeat center / 25px;
+}
+.products-button {
+    display: block;
+    margin: 0 auto;
+    margin-top: 27px;  
+    padding: 0 34px; 
+    font-weight: 300;
+    font-size: 17px;
+    border-radius: 5px;
+    border: 2px solid $red1;
+    transition: background-color 0.1s linear, color 0.1s linear;
+
+    &:hover {
+        color: $white;
+        background-color: $red1; 
+    }
+    &:focus {
+        outline: 2px solid black;    
+    }
+}
+
+// Slider
+#splide_products-novelty,
+#splide_products-popular,
+#splide_products-discount {
+    .splide__slide {
+        padding-bottom: 20px;
+    }
+    .products-slider-item {
+        display: flex;
+        justify-content: center;
+        z-index: 2;
+    }
+    .products-slider-arrows {
+        position: absolute;
+        top: -80px;
+        right: 0;
+        display: flex;
+
+        &>.splide__arrow--prev {
+            background: url('../../img/icons/icon-arrow-left.png') no-repeat center / 13px;
+            left: -64px;
+        }
+        &>.splide__arrow--next {
+            background: url('../../img/icons/icon-arrow-right.png') no-repeat center / 13px;
+            right: 0px;
+        }
+        &>.splide__arrow--prev,
+        &>.splide__arrow--next {
+            opacity: 1;
+        }
+        &>.splide__arrow--prev:hover,
+        &>.splide__arrow--next:hover {
+            opacity: 0.8;
+        }
+    }
+}
+
+
+
+@media screen and (max-width: 1024px) {
+    .products-list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .products {
+        padding-bottom: 40px;
+    }
+    .products_novelty {
+        padding-top: 45px;
+    }
+    .products_discount {
+        padding-bottom: 50px;
+    }
+}
+
+
+@media screen and (max-width: 425px) {
+    .products {
+        padding: 30px 0;
+    }
+    .products-list {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

@@ -1,0 +1,155 @@
+.instagram {
+    padding: 76px 0 82px;
+}
+.instagram-title {
+
+}
+.instagram-container {
+    padding-top: 19px;
+    display: flex;
+    align-items: center;
+    column-gap: 16px;
+}
+.instagram-main {
+    max-width: 555px;
+}
+.instagram-logo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 32px;
+}
+.instagram-logo-pic {
+    display: block;
+    margin-right: 33px;
+    width: 157px;
+    height: 157px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.instagram-logo-img {
+    width: 100%;
+}
+.instagram-logo-link {
+    font-weight: 100;
+    font-size: 23px;
+    color: $text-dark2;
+    text-decoration: underline;
+}
+.instagram-description {
+    margin-bottom: 56px;
+    font-weight: 100;
+    font-size: 22px;
+    color: $text-dark2;
+}
+.instagram-button {
+    padding: 0 45px 0 40px;
+    height: 50px;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 50px;
+    border: 2px solid $red1;
+    transition: background-color 0.2s linear, color 0.2s linear;
+    color: $text-dark1;
+
+    &:hover {
+        background-color: $red1;
+        color: $white;
+    }
+}
+.instagram-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.instagram-gallery-photo {
+    width: 160px;
+    height: 160px;
+    border-radius: 2px;
+    background-color: $main;
+    overflow: hidden;
+}
+.instagram-gallery-img {
+    height: 100%;
+    width: auto;
+}
+
+@media screen and (max-width: 1024px) {
+    .instagram-logo-pic {
+        width: 124px;
+        height: 124px;
+        margin-right: 0;
+        margin-bottom: 12px;
+    }
+    .instagram-logo {
+        flex-direction: column;
+        align-items: start;
+    }
+    .instagram-description {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .instagram {
+        padding: 46px 0 54px;
+    }
+    .instagram-container {
+        padding-top: 0;
+        flex-direction: column;
+    }
+    .instagram-logo {
+        margin-bottom: 16px;
+        flex-direction: row;
+        align-items: center;
+    }
+    .instagram-logo-pic {
+        margin-right: 33px;
+    }
+    .instagram-description {
+        margin-bottom: 33px;
+    }
+    .instagram-button {
+        display: block;
+        margin: auto;
+        margin-bottom: 36px;
+    }
+    
+}
+@media screen and (max-width: 555px) {
+    .instagram-gallery-photo {
+        width: 120px;
+        height: 120px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .instagram-logo {
+        justify-content: center;
+        margin-bottom: 8px;
+    }
+    .instagram-logo-pic {
+        margin-right: 24px;
+        width: 100px;
+        height: 100px;
+    }
+    .instagram-logo-link {
+        font-size: 18px;
+    }
+    .instagram-description {
+        margin-bottom: 24px;
+        text-align: center;
+    }
+    .instagram-button {
+        padding: 0 25px 0 20px;
+        height: 40px;
+        line-height: 40px;
+    }
+    .instagram-gallery {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+    }
+    .instagram-gallery-photo {
+        width: 90px;
+        height: 90px;
+    }
+}

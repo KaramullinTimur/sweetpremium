@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="27" height="22" viewBox="0 0 27 22">
+  <defs>
+    <style>
+      .cls-1 {
+        opacity: 0.8;
+      }
+    </style>
+  </defs>
+  <image id="basket" class="cls-1" width="27" height="22" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAWCAYAAAAxSueLAAABo0lEQVRIia3Wz4vNURjH8df1a4YNG2pEVorYyEKSUmwtpJitspSdsmKnFCtWdlMSf4CkiaaxYTZTfpUaE40ppTQ1BhFXTz03jHu/33Pd76fO4pyec97P85xznnNaY2OXJtDyW2txB1c1rFUY/aP/AxtxBdN42DTs/bKxD7iLo5jCugY4PzuwboqoTuFWA6A2hrHUC/YGH3Ee8xVOlegzLsQavRaJ1H7CBrwcABRaie24saKHQeR4DrsHBIV2ZhqnesFkRLsagB3EDBaqYC+wFVU2JdqPSTULzeSxHxkAtBmb8KQOFodkMTf3f7Uv7+18HSz0dsB9O4YHnU7d/XmOA5mO4UJAXOLVOI01uF0Ke4ozuJZ1s1Vj31FAXuXcr6Wwucz5uawqpZUkovu+fLBucoAWsA2z+FYI66oST1/jEN7lW1eiVjq32C/sEc5iR8HpbWcLpy7m69EX7D4m0napAthOm6Es4v8cppJSFC/3ddzE3izS3VpEczm/FIcT3jcsCml4HCk5XmG3B1swjpPdDEpgj7EeR3Cvwu4ZvuBEfiv+Fn4B2HNX8mEM+3oAAAAASUVORK5CYII="/>
+</svg>

@@ -1,0 +1,122 @@
+.start {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: #423B3AF2;
+    z-index: 100;
+
+    display: none;
+    &.active {
+        display: block;
+    }
+}
+.start-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.start-logo {
+    margin-top: 14vh;
+    height: 184px;
+    width: 291px;
+    margin-bottom: 46px;
+}
+.start-title {
+    padding-bottom: 20px;
+    font-weight: 300;
+    font-size: 26px;
+    color: $white;
+    text-align: center;
+}
+
+.start-buttons {
+    width: 100%;
+    max-width: 914px;
+    display: flex;
+    justify-content: space-around;
+    border-top: 4px solid #F5F5E3;
+}
+.start-button {
+    padding: 0 47px 0 118px;
+    height: 92px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #F5F5E3;
+    text-transform: uppercase;
+    border: 0;
+    border-radius: 0px 0px 10px 0px;
+    position: relative;
+
+    &::after,
+    &::before {
+        content: '';
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        height: 69px;
+    }
+    &::after {
+        right: 15px;
+        border-left: 1px dashed #F5F5E3;
+    }
+    &::before {
+        left: 12px;
+        border-right: 1px dashed #E34049;
+    }
+
+    &>.start-button-span {
+        display: block;
+        font-weight: 300;
+        font-size: 18px;
+        text-transform: lowercase;
+    }
+
+    &:hover {
+        background-color: #A67A59F2;
+    }
+    &:hover::before {
+        border-right: 1px dashed #A67A59F2;
+    }
+}
+.start-button-wholesale {
+    background: #E34049 url('../../img/index/start-button-wholesale.png') no-repeat left center / auto 100%;
+}
+.start-button-retail {
+    background: #E34049 url('../../img/index/start-button-retail.png') no-repeat left center / auto 100%;
+}
+
+
+@media screen and (max-width: 768px) {
+    .start-logo {
+        margin-top: 10vh;
+        transform: scale(0.75);
+        margin-bottom: 28px;
+    }
+    .start-buttons {
+        margin-top: 30px;
+        flex-direction: column;
+        align-items: center;
+        border: 0;
+    }
+    .start-button {
+        width: 100%;
+        max-width: 360px;
+        margin-bottom: 65px;
+    }
+}
+
+
+@media screen and (max-width: 425px) {
+    .start-logo {
+        margin-top: 0;
+        transform: scale(0.6);
+        margin-bottom: 0;
+    }
+    .start-title {
+        font-size: 24px;
+    }
+    .start-button {
+        margin-bottom: 45px;
+    }
+}

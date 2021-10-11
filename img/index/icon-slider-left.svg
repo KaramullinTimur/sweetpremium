@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="31" viewBox="0 0 16 31">
+  <defs>
+    <style>
+      .cls-1 {
+        opacity: 0.52;
+      }
+    </style>
+  </defs>
+  <image id="strelka" class="cls-1" width="16" height="31" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAfCAYAAADupU20AAABRklEQVQ4jaXVQUsWURSH8V+JQYhaEC0UERdupIVBmhGhIgohLURKXbUoiCAEF0L0gfxAagqJgi2EsIUmYuX7Whw4QtBC733/q2GG55lz77lzRosZudEC/AxjtfAUVnCnBp7FMjpLwZuYw3vcLoXb8ApvcevfB9fZxHYspGQN5yVvjre9wVIKihLrfIf5XH9ROvABL0rBSFf2eKYGvotVjNfA9/ERj2vg3oQf1sD9+IQHNXDkNSZq4TgcR9muQ3yvERxjF4v4gW+lgsgJvuAlfuGgVBA5xXZ+snH/a6kgcoatHBoxMPZKBZGf+Ixp3MNOqSDyG+t5pPtyf/6UCCKNlDzBYO7Pf5KrhkQTGxjOkxqSixKBBDYxhEe5P80SgSw9ujOAp3ndKBFcSmIJPZjMSs6LB2V2pBvPo5JW/o3R4tGaCi6zj+ZfSoE9MFbgOwgAAAAASUVORK5CYII="/>
+</svg>

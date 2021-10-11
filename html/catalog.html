@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header-top"> 
+            <div class="header-top-container container">
+                <div class="header-logo">
+                    <a href="../index.html" class="header-logo-link"></a>
+                </div>
+                <div class="header-select" tabindex="0">
+                    Для оптовых покупателей
+                    <ul class="header-select-options">
+                        <li class="header-select-option">
+                            <a href="#" class="header-select-option-link" tabindex="0"> Для оптовых покупателей</a> 
+                        <li class="header-select-option">
+                            <a href="./retail.html" class="header-select-option-link" tabindex="0">Для розничных покупателей</a>
+                        </li>  
+                    </ul>
+                </div>
+                <div class="header-contacts">
+                    <a href="mailto:sweet@mail.ru" class="header-contacts-email">
+                        <div class="header-contacts-email-icon"></div>
+                        <div class="header-contacts-email-text">
+                            e-mail: <span class="header-contacts-email-adress">sweet@mail.ru</span>
+                        </div>
+                    </a>
+                    <a href="tel:+7 707 044 19 07" class="header-contacts-phone">
+                        <div class="header-contacts-phone-icon"></div>
+                        <div class="header-contacts-phone-number">
+                            +7 707 044 19 07
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="header-nav">
+            <nav class="header-nav-container container">
+                <button class="header-hamburger">
+                    <div class="header-hamburger-line"></div>
+                    <div class="header-hamburger-line"></div>
+                    <div class="header-hamburger-line"></div>
+                </button>
+                <ul class="header-nav-list">
+                    <li class="header-nav-list-close">
+                        <button class="header-nav-list-button"></button>
+                    </li>
+                    <li class="header-nav-item">
+                        <a href="../index.html" class="header-nav-link">Главная</a>
+                    </li>
+                    <li class="header-nav-item">
+                        <a href="#" class="header-nav-link">Каталог</a>
+                    </li>
+                    <li class="header-nav-item">
+                        <a href="#" class="header-nav-link">Доставка</a>
+                    </li>
+                    <li class="header-nav-item">
+                        <a href="#" class="header-nav-link">Контакты</a>
+                    </li>
+                    <li class="header-nav-item">
+                        <a href="#" class="header-nav-link">Условия хранения, транспортировки, разморозки</a>
+                    </li>
+                </ul>
+                <div class="header-nav-divider"></div>
+                <a href="#" class="header-cart">
+                    <div class="header-cart-icon"></div>
+                    <div class="header-cart-counter">0</div>
+                    <div class="header-cart-text">Корзина пуста</div>
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="breadcrumbs">
+        <div class="container">
+            <ul class="breadcrumbs-list">
+                <li class="breadcrumbs-item">
+                    <a href="../index.html" class="breadcrumbs-link">Главная</a>
+                </li>
+                <li class="breadcrumbs-item">
+                    <a href="#" class="breadcrumbs-link">Торты</a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <main class="container-grow">
+        <div class="container-main container">
+            <section class="categories">
+                <ul class="categories-list">
+                    <li class="categories-item">
+                        <a href="#" onclick="event.preventDefault()" class="categories-link categories-link_confectionary">
+                            <div class="categories-name">Кондитерские изделия</div>
+                        </a>
+                    </li>
+                    <li class="categories-item">
+                        <a href="#" class="categories-link categories-link_cakes active">
+                            <div class="categories-name active">Торты</div>
+                        </a>
+                    </li>
+                    <li class="categories-item">
+                        <a href="#" onclick="event.preventDefault()" class="categories-link categories-link_pasta">
+                            <div class="categories-name">Паста</div>
+                        </a>
+                    </li>
+                    <li class="categories-item">
+                        <a href="#" onclick="event.preventDefault()" class="categories-link categories-link_icecream">
+                            <div class="categories-name">Мороженое</div>
+                        </a>
+                    </li>
+                    <li class="categories-item">
+                        <a href="#" onclick="event.preventDefault()" class="categories-link categories-link_cheesecakes">
+                            <div class="categories-name">Чизкейки</div>
+                        </a>
+                    </li>
+                </ul>
+            </section>
+
+            <div>
+                <section class="catalog">
+                    <h2 class="catalog-title title-h2">Торты</h2>
+                    <div class="catalog-head">
+                        <div class="catalog-filter">
+                            <ul class="filter-list">
+                                <li class="filter-item">
+                                    <button class="filter-button active">Новинки</button>
+                                </li>
+                                <li class="filter-item">
+                                    <button class="filter-button">Популярное</button>
+                                </li>
+                                <li class="filter-item">
+                                    <button class="filter-button">Скидки</button>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="catalog-sort">
+                            <select class="catalog-sort-select">
+                                <option value="" class="catalog-sort-option">Сортировать по новизне</option>
+                                <option value="" class="catalog-sort-option">Сортировать по популярности</option>
+                                <option value="" class="catalog-sort-option">Сортировать по возрастанию цены</option>
+                                <option value="" class="catalog-sort-option">Сортировать по убыванию цены</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="catalog-body">
+                        <ul class="catalog-body-list">
+                            <li class="catalog-body-item card">
+                                <a href="../html/product.html" class="card-link">
+                                    <div class="card-pic">
+                                        <img src="../img/products/cakes/cake-1.jpg" alt="" class="card-img">
+                                    </div>
+                                    <div class="card-body">
+                                        <h3 class="card-title">
+                                            Набор пирожных Prestige Karamel
+                                        </h3>
+                                        <div class="card-price">
+                                            2580<span class="card-currency">тнг.</span>
+                                        </div>
+                                    </div>
+                                </a>
+                                <button class="catalog-card-button card-button"></button>
+                            </li>
+                            <li class="catalog-body-item card">
+                                <a href="../html/product.html" class="card-link">
+                                    <div class="card-pic">
+                                        <img src="../img/products/cakes/cake-2.jpg" alt="" class="card-img">
+                                    </div>
+                                    <div class="card-body">
+                                        <h3 class="card-title">
+                                            Лимонный чизкейк
+                                        </h3>
+                                        <div class="card-price">
+                                            2580<span class="card-currency">тнг.</span>
+                                        </div>
+                                    </div>
+                                </a>
+                                <button class="catalog-card-button card-button"></button>
+                            </li>
+                            <li class="catalog-body-item card">
+                                <a href="../html/product.html" class="card-link">
+                                    <div class="card-pic">
+                                        <img src="../img/products/cakes/cake-3.jpg" alt="" class="card-img">
+                                    </div>
+                                    <div class="card-body">
+                                        <h3 class="card-title">
+                                            Карамельно-шоколадный чизкейк
+                                        </h3>
+                                        <div class="card-price">
+                                            2580<span class="card-currency">тнг.</span>
+                                        </div>
+                                    </div>
+                                </a>
+                                <button class="catalog-card-button card-button"></button>
+                            </li>
+                            <li class="catalog-body-item card">
+                                <a href="../html/product.html" class="card-link">
+                                    <div class="card-pic">
+                                        <img src="../img/products/cakes/cake-4.jpg" alt="" class="card-img">
+                                    </div>
+                                    <div class="card-body">
+                                        <h3 class="card-title">
+                                            Набор пирожных Prestige Karamel
+                                        </h3>
+                                        <div class="card-price">
+                                            2580<span class="card-currency">тнг.</span>
+                                        </div>
+                                    </div>
+                                </a>
+                                <button class="catalog-card-button card-button"></button>
+                            </li>
+                            <li class="catalog-body-item card">
+                                <a href="../html/product.html" class="card-link">
+                                    <div class="card-pic">
+                                        <img src="../img/products/cakes/cake-5.jpg" alt="" class="card-img">
+                                    </div>
+                                    <div class="card-body">
+                                        <h3 class="card-title">
+                                            Лимонный чизкейк
+                                        </h3>
+                                        <div class="card-price">
+                                            2580<span class="card-currency">тнг.</span>
+                                        </div>
+                                    </div>
+                                </a>
+                                <button class="catalog-card-button card-button"></button>
+                            </li>
+                            <li class="catalog-body-item card">
+                                <a href="../html/product.html" class="card-link">
+                                    <div class="card-pic">
+                                        <img src="../img/products/cakes/cake-6.jpg" alt="" class="card-img">
+                                    </div>
+                                    <div class="card-body">
+                                        <h3 class="card-title">
+                                            Карамельно-шоколадный чизкейк
+                                        </h3>
+                                        <div class="card-price">
+                                            2580<span class="card-currency">тнг.</span>
+                                        </div>
+                                    </div>
+                                </a>
+                                <button class="catalog-card-button card-button"></button>
+                            </li>
+                            <li class="catalog-body-item card">
+                                <a href="../html/product.html" class="card-link">
+                                    <div class="card-pic">
+                                        <img src="../img/products/cakes/cake-1.jpg" alt="" class="card-img">
+                                    </div>
+                                    <div class="card-body">
+                                        <h3 class="card-title">
+                                            Набор пирожных Prestige Karamel
+                                        </h3>
+                                        <div class="card-price">
+                                            2580<span class="card-currency">тнг.</span>
+                                        </div>
+                                    </div>
+                                </a>
+                                <button class="catalog-card-button card-button"></button>
+                            </li>
+                            <li class="catalog-body-item card">
+                                <a href="../html/product.html" class="card-link">
+                                    <div class="card-pic">
+                                        <img src="../img/products/cakes/cake-2.jpg" alt="" class="card-img">
+                                    </div>
+                                    <div class="card-body">
+                                        <h3 class="card-title">
+                                            Лимонный чизкейк
+                                        </h3>
+                                        <div class="card-price">
+                                            2580<span class="card-currency">тнг.</span>
+                                        </div>
+                                    </div>
+                                </a>
+                                <button class="catalog-card-button card-button"></button>
+                            </li>
+                            <li class="catalog-body-item card">
+                                <a href="../html/product.html" class="card-link">
+                                    <div class="card-pic">
+                                        <img src="../img/products/cakes/cake-3.jpg" alt="" class="card-img">
+                                    </div>
+                                    <div class="card-body">
+                                        <h3 class="card-title">
+                                            Карамельно-шоколадный чизкейк
+                                        </h3>
+                                        <div class="card-price">
+                                            2580<span class="card-currency">тнг.</span>
+                                        </div>
+                                    </div>
+                                </a>
+                                <button class="catalog-card-button card-button"></button>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="pagination">
+                        <button class="pagination-page active">1</button>
+                        <button class="pagination-page">2</button>
+                        <button class="pagination-page">3</button>
+                        <button class="pagination-page">4</button>
+                        <button class="pagination-page">5</button>
+                    </div>
+                </section>
+
+                <section class="about">
+                    <div class="about-container container">
+                        <h2 class="about-title title-h2">Мы работаем для Вас</h2>
+                        <div class="about-wrapper">
+                            <about class="about-description">
+                                <p class="about-desctiption-paragraph">
+                                    С 2012 года компания Sweetpremium  предлагает своим партнерам реальный инструмент для улучшения и оптимизации бизнеса, который может стать одним из решающих, в условиях жесткой конкуренции.
+                                </p>
+                                <p class="about-desctiption-paragraph">
+                                    Одно из приоритетных направлений нашей деятельности - поставка замороженных десертов, выпечки и мороженого для Ho.Re.Ca. (отелей, кафе, ресторанов.)                       
+                                </p>
+                            </about>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-container container">
+            <div class="footer-main">
+                <div class="footer-main-wrapper">
+                    <a class="footer-main-logo"></a>
+                    <div class="footer-main-copyright">
+                        © Sweet Premium/ <br>
+                        Все права защищены, <br>
+                        2017-2021
+                    </div>
+                </div>
+                <ul class="footer-links">
+                    <li class="footer-item">
+                        <a href="https://www.instagram.com/sweetpremium.kz/" target="_blank" class="footer-link">
+                            <span class="footer-link-text">Мы в Инстраграм</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-contacts-wrapper">
+                <div class="footer-contacts">
+                    <h3 class="footer-contacts-title">Офис г. Алматы:</h3>
+                    <a href="tel:+7(727)-291-29-25" class="footer-contacts-phone">+7(727)-291-29-25</a>
+                    <a href="tel:+7(707)-044-19-07" class="footer-contacts-phone">+7(707)-044-19-07</a>
+                </div>
+                <div class="footer-contacts">
+                    <h3 class="footer-contacts-title">Менеджеры г. Алматы:</h3>
+                    <a href="tel:+7(707)-145-80-80" class="footer-contacts-phone">+7(707)-145-80-80</a>
+                    <a href="tel:+7(707)-044-19-06" class="footer-contacts-phone">+7(707)-044-19-06</a>
+                    <a href="tel:+7(707)-189-53-25" class="footer-contacts-phone">+7(707)-189-53-25</a>
+                    <a href="tel:+7(747)-253-12-94" class="footer-contacts-phone">+7(747)-253-12-94</a>
+                    <a href="mailto:info@sweetpremium.kz" class="footer-contacts-email">info@sweetpremium.kz</a>
+                </div>
+                <div class="footer-contacts">
+                    <h3 class="footer-contacts-title">Менеджеры г. Астана:</h3>
+                    <a href="tel:+7(707)-040-54-77" class="footer-contacts-phone">+7(707)-040-54-77</a>
+                    <a href="tel:+7(707)-040-54-74" class="footer-contacts-phone">+7(707)-040-54-74</a>
+                    <a href="mailto:astana1@sweetpremium.kz" class="footer-contacts-email">astana1@sweetpremium.kz</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/header-hamburger.js"></script>
+    <script src="../js/header-select.js"></script>
+</body>
+</html>

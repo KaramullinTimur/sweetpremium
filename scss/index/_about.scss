@@ -1,0 +1,97 @@
+.about {
+    padding: 90px 0 94px;
+}
+.about_retail {
+    padding: 79px 0 75px;
+}
+.about-container {
+
+}
+.container {
+
+}
+.about-title {
+    margin-bottom: 60px;
+}
+.about-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 59px;
+}
+.about-video {
+    position: relative;
+    max-width: 358px;
+    width: 100%;
+    height: 358px;
+    flex-shrink: 0;
+    border-radius: 3px;
+    background: rgb(26, 13, 3) url('../../img/backgrounds/bg-about.jpg') 100%;
+}
+.about-link {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+    width: 149px;
+    height: 149px;
+    border-radius: 50%;
+    background-color: $red1;
+    cursor: pointer;
+    transition: background-color 0.1s linear;
+
+    &::after {
+        content: '';
+        position: absolute;
+        left: 53%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        width: 28px;
+        height: 31px;
+        background: url('../../img/icons/icon-play.png') no-repeat center;
+    }
+    &:hover {
+        background-color: $green1;
+    }
+}
+.about-description {
+    font-weight: 100;
+    font-size: 17px;
+    color: $text-dark2;
+}
+.about-desctiption-paragraph {
+    margin-bottom: 34px;
+    &:last-child {
+        margin-bottom: 0;
+    }
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .about {
+        padding: 36px 0 43px;
+    }
+    .about_retail {
+        padding: 56px 0 50px;
+    }
+    .about-title {
+        margin-bottom: 40px;
+        font-size: 30px;
+    }
+    .about-wrapper {
+        flex-direction: column;
+        gap: 30px;
+    }
+    .about-desctiption-paragraph {
+        margin-bottom: 16px;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .about_retail {
+        padding: 40px 0 60px;
+    }
+}

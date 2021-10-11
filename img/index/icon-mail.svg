@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="23" height="16" viewBox="0 0 23 16">
+  <defs>
+    <style>
+      .cls-1 {
+        opacity: 0.8;
+      }
+    </style>
+  </defs>
+  <image id="mail" class="cls-1" width="23" height="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAQCAYAAAD9L+QYAAABh0lEQVQ4jaXUS0uVURTG8Z8nuygOGgSB8yaNoiJFohr4ESxIokFlEVhaFl1JCkxoFIU60yxoWDjzA9g4aNoopHRgJYFdqI6xYh2Ql+Ol3gc2G9ba/Pfa67IbJifvd+MIGnOV1TJ+YC5gvdiCO/iITSXBv3EFewP+AW/RhbP4VTLyfizhRQWxhvAOE9hWAnwNh9CH+Rp8M+5GnjCCrf8Bvok2nMEXNFXSUcvzdXzFw38sboD3JfhT2pYrhUPVzFlc9gANGwBHQPsL4L8qwmW1L2AH7q0DvowDCf5cdNaDyz49jV1Zi3qKVBzHqWLE68ElOPJ+EAMFX3TFHrzO6OvOxmrwzuyaZziKw7iYvqtoz5kI206MoWUj8JP55NuYyiefywueZ1f0YBHfcR4LGEdrPfjP3G/hWEb1asW5uQQ+zX1hha+awczgCXbXHI3ZHc0YxHacyKiKihdMr5LG0CO8x2PciHkJeORqFLO4lEPUtAZkLb3ENwzXfsU36EhjFKbMrxiKOlTR8gf77FT/nr/9YQAAAABJRU5ErkJggg=="/>
+</svg>

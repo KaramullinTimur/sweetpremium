@@ -1,0 +1,139 @@
+.catalog {
+
+}
+.catalog-title {
+
+}
+.catalog-head {
+    margin-left: -17px;
+    margin-bottom: 34px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.catalog-filter {
+    & .filter-button {
+        margin: 0 17px;
+    }
+}
+.catalog-sort {
+    
+}
+.catalog-sort-select {
+    padding: 13px 60px 11px 25px;
+    font-weight: 300;
+    font-size: 15px;
+    color: $text-sand-dark1;
+    border: 0;
+    border-radius: 4px;
+    background: $main url('../../img/icons/icon-select-grey.png') no-repeat right 15px center / 17px;
+    appearance: none;
+    cursor: pointer;
+    &:hover {
+        outline: 2px solid $sand;
+    }
+}
+.catalog-sort-option {
+    
+}
+
+.catalog-body {
+
+}
+.catalog-body-list {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(200px, 263px));
+    gap: 67px 30px;
+    justify-content: space-between;  
+}
+.catalog-body-item {
+    &:hover {
+        background-color: $main;
+    }
+    &:hover .catalog-card-button {
+        background: $red1 url('../../img/retail/icon-plus.svg') no-repeat center / 14px;
+    }
+}
+.catalog-card {
+
+}
+.catalog-card-button {
+    width: 41px;
+    height: 41px;
+    border-radius: 2px;
+    background: $green1 url('../../img/retail/icon-cart.svg') no-repeat center / 25px;
+}
+
+.pagination {
+    margin-top: 36px;
+    margin-left: 2px;
+    margin-bottom: 2px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 10px;
+}
+.pagination-page {
+    display: block;
+    width: 44px;
+    height: 44px;
+    border: 0;
+    border-radius: 50%;
+    background-color: transparent;
+    font-weight: 100;
+    font-size: 17px;
+    color: $text-dark2;
+    text-align: center;
+    line-height: 44px;
+
+    &:hover {
+        outline: 2px solid $grey;
+    }
+    &.active {
+        outline: 2px solid $red1;
+    }
+}
+
+
+
+@media screen and (max-width: 1024px) {
+    .catalog-title {
+        margin-bottom: 28px;
+    }
+    .catalog-body-list {
+        grid-template-columns: repeat(2, minmax(200px, 263px));
+    }
+    .catalog-head {
+        flex-direction: column;
+    }
+    .catalog-filter {
+        order: 2;
+    }
+    .catalog-sort {
+        order: 1;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .catalog {
+        width: 100%;
+    }
+    .catalog-body-list {
+        justify-content: center;  
+    }
+    .pagination {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 555px) {
+    .catalog-body-list {
+        grid-template-columns: repeat(1, minmax(200px, 263px));
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .catalog-sort-select {
+        padding: 8px 40px 8px 5px;
+    }
+}

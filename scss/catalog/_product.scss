@@ -1,0 +1,214 @@
+.product {
+    padding-bottom: 56px;
+}
+.product-title {
+
+}
+.product-card {
+    margin-bottom: 75px;
+    // display: grid;
+    // grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 43px;
+}
+
+.product-card-slider {
+    position: relative;
+    max-width: 457px;
+}
+#splide_product {
+    .splide {}
+    .splide__track {}
+    .splide__list {}
+    .splide__slide {}
+    .splide__arrows {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        width: 120px;
+        height: 32px;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .splide__arrow {
+        display: block;
+    }
+    .splide__arrow--prev {
+        left: 0px;
+        background: url('../../img/icons/icon-arrow-left.png') no-repeat center / 16px;
+    }
+    .splide__arrow--next {
+        right: 0px;
+        background: url('../../img/icons/icon-arrow-right.png') no-repeat center / 16px;
+    }
+}
+
+
+.product-card-item {
+    padding-bottom: 62px;
+    max-width: 457px;
+}
+.product-card-img {
+    width: 100%;
+}
+.product-card-pic {
+
+}
+.product-card-slider-counter {
+    font-weight: 300;
+    font-size: 17px;
+    color: #4d4d4d;
+}
+
+.product-card-info {
+    max-width: 340px;
+    flex-grow: 1;
+}
+.product-card-paragraph {
+    margin-bottom: 25px;
+    font-weight: 100;
+    font-size: 17px;
+}
+.product-card-controls {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 24px;
+    row-gap: 20px;
+}
+.product-card-button {
+    margin-right: 13px;
+    padding: 0px 48px;
+    height: 53px;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 53px;
+    color: $white;
+    background-color: $red2;
+    transition: background-color 0.2s linear;
+    position: relative;
+
+    &:hover {
+        background-color: $green1;
+    }
+
+}
+.product-card-input-wrapper {
+    display: inline-block;
+    position: relative;
+}
+.product-card-input-up,
+.product-card-input-down {
+    position: absolute;
+    right: 12px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    border: 0;
+}
+.product-card-input-up {
+    top: 6px;
+    background: url('../../img/icons/icon-button-up.png') no-repeat center / 10px;
+}
+.product-card-input-down {
+    bottom: 6px;
+    background: url('../../img/icons/icon-button-down.png') no-repeat center / 10px;
+}
+.product-card-input {
+    padding: 0 17px 0 33px;
+    width: 103px;
+    height: 53px;
+    font-weight: 300;
+    font-size: 20px;
+    color: $text-dark2;
+    line-height: 53px;
+    background-color: $white;
+    box-shadow: 0 0 20px $grey;
+}
+.product-card-table {
+    border-spacing: 0 18px;
+}
+.product-card-table-row {
+    
+}
+.product-card-table-param {
+    display: flex;
+    max-width: 258px;
+    margin-right: 0;
+}
+.product-card-table-param-name {
+    flex-shrink: 0;
+    font-weight: 500;
+    font-size: 16px;
+    color: $text-dark2;
+}
+.product-card-table-dots {
+    flex-grow: 1;
+    margin: 0 6px;
+    font-weight: 100;
+    font-size: 20px;
+    color: $text-dark2;
+    overflow: hidden;
+}
+.product-card-table-value {
+    font-weight: 100;
+    font-size: 16px;
+    color: $text-dark2;
+}
+
+.product-description {
+
+}
+.product-description-filter {
+    margin-bottom: 32px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid $grey;
+
+    & .filter-list {
+        justify-content: start;
+        margin-left: -35px;
+    }
+
+    & .filter-button:hover,
+    & .filter-button.active {
+        background-color: $green1;
+    }
+    & .filter-button::after {
+        border-top-color: $green1;
+    }
+    
+}
+.product-description-paragraph {
+    font-weight: 100;
+    font-size: 17px;
+    color: $text-dark2;
+}
+
+
+@media screen and (max-width: 1138px) {
+    .product-card-info {
+        max-width: 457px;
+    }
+    .product-card-slider {
+        margin-bottom: 24px;
+    }
+    .product-card-table {
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .product-card-slider {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .product-card-slider {
+        width: 300px;
+    }
+}

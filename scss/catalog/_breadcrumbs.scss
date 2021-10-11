@@ -1,0 +1,35 @@
+.breadcrumbs {
+    padding: 38px 0 46px;
+}
+.container {
+
+}
+.breadcrumbs-list {
+    display: flex;
+    column-gap: 17px;
+}
+.breadcrumbs-item {
+    padding-right: 23px;
+    background: url('../../img/icons/icon-arrow-right.png') no-repeat center right/ 5px;
+
+    &:last-child {
+        padding-right: 0;
+        background: none;
+    }
+    &:last-child>.breadcrumbs-link {
+        font-weight: 500;
+        color: $text-dark2;
+        text-decoration: none; 
+        pointer-events: none;
+        cursor: default;
+    }
+}
+.breadcrumbs-link {
+    font-weight: 300;
+    font-size: 16px;
+    color: #b0aba5;
+    text-decoration: underline;
+    &:hover {
+        color: $text-dark2;
+    }
+}

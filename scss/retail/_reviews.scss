@@ -1,0 +1,138 @@
+.reviews {
+    padding-bottom: 62px;
+}
+.reviews-title {
+
+}
+.reviews-slider {
+    padding: 57px 67px 44px 39px;
+    background-color: $main;
+    border-radius: 5px;
+}
+.reviews-item {
+    display: flex;
+    justify-content: center;
+    column-gap: 33px;
+}
+.reviews-card {
+    margin: auto;
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    
+}
+.reviews-card-text {
+    margin-bottom: 45px;
+    padding: 17px 0 0 36px;
+    font-weight: 100;
+    font-size: 17px;
+    line-height: 30px;
+    color: $text-dark1;
+    background: url('../../img/retail/icon-quote.svg') no-repeat left top / 19px;
+}
+.reiews-card-user {
+    height: 118px;
+    display: flex;
+    align-items: center;
+    position: relative;
+
+    &::after {
+        content: '';
+        position: absolute;
+        left: 130px;
+        top: 0;
+        width: 1px;
+        height: 100%;
+        background-color: #c4c4b6;
+    }
+}
+.reviews-card-avatar {
+    display: block;
+    margin-left: 24px;
+    margin-right: 45px;
+    width: 83px;
+    height: 83px;
+    border-radius: 50%; 
+    position: relative;
+    
+}
+.reviews-card-username {
+    width: 100%;
+    font-weight: 500;
+    font-size: 18px;
+    color: $text-dark1;
+}
+
+.reviews-slider-arrows {
+    display: none;
+}
+.reviews-slider-pagination {
+    display: flex;
+    justify-content: center;
+    padding-top: 28px;
+    column-gap: 33px;
+}
+.reviews-slider-pagination-button {
+    width: 10px;
+    height: 10px;
+    border: 2px solid #a6a6a6;
+    border-radius: 50%;
+    background-color: $main;
+    
+    &.active {
+        transform: scale(1.6);
+        border-color: $green1;
+    }
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .reviews-slider {
+        padding: 45px;
+    }
+    .reviews-item {
+        flex-direction: column;
+    }
+    .reviews-card {
+        max-width: 100%;
+    }
+    .reviews-card-text {
+        margin-bottom: 30px;
+        padding-top: 0;
+        order: 2;
+    }
+    .reiews-card-user {
+        height: 92px;
+        margin-bottom: 0px;
+        order: 1;
+        &::after {
+            left: 142px;
+        }
+    }
+    .reviews-card-avatar {
+        margin-left: 36px;
+    }
+    .reviews-slider-pagination {
+        padding-top: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .reviews-slider {
+        margin: 0 -10px;
+        padding: 25px 20px;
+    }
+    .reviews-card-text {
+        font-size: 15px;
+    }
+    .reviews-card-username {
+        font-size: 17px;
+    }
+    .reviews-card-avatar {
+        width: 75px;
+        height: 75px;
+    }
+}
