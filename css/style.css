@@ -590,8 +590,10 @@ ul, ol {
   cursor: pointer;
 }
 .header-catalog-item.first {
-  overflow: hidden;
   position: relative;
+}
+.header-catalog-item:hover .header-catalog-dropdown {
+  display: block;
 }
 
 .header-catalog-link {
@@ -629,10 +631,6 @@ ul, ol {
   transform: translateX(100%);
   z-index: 1;
   display: none;
-}
-
-.header-catalog-item:hover .header-catalog-dropdown {
-  display: block;
 }
 
 .header-search-input {
@@ -1056,6 +1054,13 @@ ul, ol {
     z-index: 10;
   }
 
+  .header-catalog-item.first {
+    overflow: hidden;
+  }
+  .header-catalog-item:hover .header-catalog-dropdown {
+    display: initial;
+  }
+
   .header-catalog-dropdown-link {
     position: relative;
     background-image: url("../img/icons/icon-arrow-down.png");
@@ -1074,6 +1079,9 @@ ul, ol {
   }
   .header-catalog-dropdown .header-catalog-link {
     padding-left: 35px;
+  }
+  .header-catalog-dropdown.active {
+    display: block;
   }
   .header-catalog-dropdown.animation-in {
     -webkit-animation: slide-in 0.5s;
