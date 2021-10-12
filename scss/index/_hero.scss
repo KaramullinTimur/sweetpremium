@@ -1,7 +1,7 @@
 .hero {
     padding: 100px 0 79px;
     background: $brown url('../img/backgrounds/bg-hero.jpg') no-repeat;
-    background-size: cover;
+    background-size: 100%;
 }
 .hero-container {
 
@@ -56,7 +56,7 @@
 
 @media screen and (max-width: 1920px) {
     .hero {
-        background-size: 1920px auto;
+        background-size: 1920px 100%;
         background-position: center;
     }
 }
@@ -69,6 +69,7 @@
 
 @media screen and (max-width: 768px) {
     .hero {
+        background-size: 1920px auto;
         padding: 60px 0 40px;
     }
     .hero-title {

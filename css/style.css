@@ -1145,7 +1145,7 @@ ul, ol {
 .hero {
   padding: 100px 0 79px;
   background: #6c321c url("../img/backgrounds/bg-hero.jpg") no-repeat;
-  background-size: cover;
+  background-size: 100%;
 }
 
 .hero-wrapper {
@@ -1201,7 +1201,7 @@ ul, ol {
 
 @media screen and (max-width: 1920px) {
   .hero {
-    background-size: 1920px auto;
+    background-size: 1920px 100%;
     background-position: center;
   }
 }
@@ -1212,6 +1212,7 @@ ul, ol {
 }
 @media screen and (max-width: 768px) {
   .hero {
+    background-size: 1920px auto;
     padding: 60px 0 40px;
   }
 
