@@ -49,7 +49,7 @@
     color: $text-sand-dark1;
     cursor: pointer;
     background: $main url('../img/icons/icon-arrow-down.png') no-repeat right 15px center;
-    z-index: 2;
+    z-index: 50;
     
     &.active {
         background-color: $main;

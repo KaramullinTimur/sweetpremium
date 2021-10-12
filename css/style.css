@@ -501,7 +501,7 @@ ul, ol {
   color: #666058;
   cursor: pointer;
   background: #f5f5e3 url("../img/icons/icon-arrow-down.png") no-repeat right 15px center;
-  z-index: 2;
+  z-index: 50;
 }
 .header-select.active {
   background-color: #f5f5e3;
