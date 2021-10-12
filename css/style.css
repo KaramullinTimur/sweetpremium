@@ -1171,7 +1171,7 @@ ul, ol {
   margin-top: 71px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   gap: 18px;
 }
