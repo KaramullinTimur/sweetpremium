@@ -23,14 +23,14 @@
         background-color: $main;
     }
     &:hover .products-item-button {
-        background: $red1 url('../../img/icons/icon-button-plus.png') no-repeat center / 14px;
+        background: $red1 url('../img/icons/icon-button-plus.png') no-repeat center / 14px;
     }
 }
 .products-item-button {
     width: 41px;
     height: 41px;
     border-radius: 2px;
-    background: $green1 url('../../img/icons/icon-button-cart.png') no-repeat center / 25px;
+    background: $green1 url('../img/icons/icon-button-cart.png') no-repeat center / 25px;
 }
 .products-button {
     display: block;
@@ -71,11 +71,11 @@
         display: flex;
 
         &>.splide__arrow--prev {
-            background: url('../../img/icons/icon-arrow-left.png') no-repeat center / 13px;
+            background: url('../img/icons/icon-arrow-left.png') no-repeat center / 13px;
             left: -64px;
         }
         &>.splide__arrow--next {
-            background: url('../../img/icons/icon-arrow-right.png') no-repeat center / 13px;
+            background: url('../img/icons/icon-arrow-right.png') no-repeat center / 13px;
             right: 0px;
         }
         &>.splide__arrow--prev,

@@ -1,6 +1,6 @@
 .order {
     padding: 72px 0 66px;
-    background: rgb(26, 13, 3) url('../../img/backgrounds/bg-order.jpg') no-repeat;
+    background: rgb(26, 13, 3) url('../img/backgrounds/bg-order.jpg') no-repeat;
     background-size: cover;
 }
 .order-title {
@@ -46,7 +46,7 @@
     font-size: 18px;
     color: #68604b;
     appearance: none;
-    background: #f5f5e3 url('../../img/icons/icon-select-grey.png') no-repeat right 21px center / 18px;
+    background: #f5f5e3 url('../img/icons/icon-select-grey.png') no-repeat right 21px center / 18px;
     cursor: pointer;
     &::placeholder {
         color: #68604b;

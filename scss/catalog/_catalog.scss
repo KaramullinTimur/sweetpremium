@@ -27,7 +27,7 @@
     color: $text-sand-dark1;
     border: 0;
     border-radius: 4px;
-    background: $main url('../../img/icons/icon-select-grey.png') no-repeat right 15px center / 17px;
+    background: $main url('../img/icons/icon-select-grey.png') no-repeat right 15px center / 17px;
     appearance: none;
     cursor: pointer;
     &:hover {
@@ -52,7 +52,7 @@
         background-color: $main;
     }
     &:hover .catalog-card-button {
-        background: $red1 url('../../img/retail/icon-plus.svg') no-repeat center / 14px;
+        background: $red1 url('../img/retail/icon-plus.svg') no-repeat center / 14px;
     }
 }
 .catalog-card {
@@ -62,7 +62,7 @@
     width: 41px;
     height: 41px;
     border-radius: 2px;
-    background: $green1 url('../../img/retail/icon-cart.svg') no-repeat center / 25px;
+    background: $green1 url('../img/retail/icon-cart.svg') no-repeat center / 25px;
 }
 
 .pagination {
