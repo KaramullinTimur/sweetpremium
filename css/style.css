@@ -473,7 +473,7 @@ ul, ol {
   display: block;
   width: 111px;
   height: 68px;
-  background: url("./../img/logos/logo-colored.png") center 100%;
+  background: url("../img/logos/logo-colored.png") center 100%;
 }
 
 .header-select {
@@ -487,7 +487,7 @@ ul, ol {
   font-size: 15px;
   color: #666058;
   cursor: pointer;
-  background: #f5f5e3 url("../../img/icons/icon-arrow-down.png") no-repeat right 15px center;
+  background: #f5f5e3 url("../img/icons/icon-arrow-down.png") no-repeat right 15px center;
   z-index: 2;
 }
 .header-select.active {
@@ -546,7 +546,7 @@ ul, ol {
   cursor: pointer;
   border-radius: 3px;
   background: #000;
-  background: url("../../img/icons/icon-select-green.png") no-repeat top 15px right 4px/8px;
+  background: url("../img/icons/icon-select-green.png") no-repeat top 15px right 4px/8px;
 }
 .header-city-select:focus {
   outline: 0;
@@ -566,7 +566,7 @@ ul, ol {
   color: #ffffff;
   border: 0;
   border-radius: 3px;
-  background: #e0353e url("../../img/icons/icon-hamburger.png") no-repeat left 18px center/21px;
+  background: #e0353e url("../img/icons/icon-hamburger.png") no-repeat left 18px center/21px;
   transition: background-color 0.2s linear;
   position: relative;
   left: 4px;
@@ -612,7 +612,7 @@ ul, ol {
 }
 
 .header-catalog-dropdown-link {
-  background: url("../../img/icons/icon-arrow-right.png") no-repeat right 16px center/7px;
+  background: url("../img/icons/icon-arrow-right.png") no-repeat right 16px center/7px;
   white-space: nowrap;
   position: relative;
   z-index: 22;
@@ -661,7 +661,7 @@ ul, ol {
   right: 12px;
   width: 20px;
   height: 20px;
-  background: url("../../img/icons/icon-search.png") no-repeat center/20px;
+  background: url("../img/icons/icon-search.png") no-repeat center/20px;
   border: 0;
 }
 .header-search-button:active {
@@ -686,7 +686,7 @@ ul, ol {
   margin-right: 11px;
   width: 25px;
   height: 25px;
-  background: url("../../img/icons/icon-mail.png") no-repeat center/23px;
+  background: url("../img/icons/icon-mail.png") no-repeat center/23px;
 }
 
 .header-contacts-email-text {
@@ -712,7 +712,7 @@ ul, ol {
   margin-right: 11px;
   width: 25px;
   height: 25px;
-  background: url("../../img/icons/icon-phone.png") no-repeat center/25px;
+  background: url("../img/icons/icon-phone.png") no-repeat center/25px;
 }
 
 .header-contacts-phone-number {
@@ -791,7 +791,7 @@ ul, ol {
   height: 22px;
   width: 27px;
   border: 0;
-  background: url("../../img/icons/icon-cart-header.png") no-repeat center;
+  background: url("../img/icons/icon-cart-header.png") no-repeat center;
 }
 
 .header-cart-counter {
@@ -1058,7 +1058,7 @@ ul, ol {
 
   .header-catalog-dropdown-link {
     position: relative;
-    background-image: url("../../img/icons/icon-arrow-down.png");
+    background-image: url("../img/icons/icon-arrow-down.png");
     background-size: 14px;
     z-index: 2;
   }

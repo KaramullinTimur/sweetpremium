@@ -35,7 +35,7 @@
     font-size: 15px;
     color: $text-sand-dark1;
     cursor: pointer;
-    background: $main url('../../img/icons/icon-arrow-down.png') no-repeat right 15px center;
+    background: $main url('../img/icons/icon-arrow-down.png') no-repeat right 15px center;
     z-index: 2;
     
     &.active {
@@ -90,7 +90,7 @@
     cursor: pointer;  
     border-radius: 3px;
     background: #000; 
-    background: url('../../img/icons/icon-select-green.png') no-repeat top 15px right 4px / 8px; 
+    background: url('../img/icons/icon-select-green.png') no-repeat top 15px right 4px / 8px; 
 
     &:focus {
         outline: 0;
@@ -110,7 +110,7 @@
     color: $white;
     border: 0;
     border-radius: 3px;
-    background: $red1 url('../../img/icons/icon-hamburger.png') no-repeat left 18px center / 21px;
+    background: $red1 url('../img/icons/icon-hamburger.png') no-repeat left 18px center / 21px;
     transition: background-color 0.2s linear;
     &:hover {
         background-color: $green1;
@@ -156,7 +156,7 @@
     
 }
 .header-catalog-dropdown-link {
-    background: url('../../img/icons/icon-arrow-right.png') no-repeat right 16px center / 7px;
+    background: url('../img/icons/icon-arrow-right.png') no-repeat right 16px center / 7px;
     white-space: nowrap;
     position: relative;
     z-index: 22;
@@ -208,7 +208,7 @@
     right: 12px;
     width: 20px;
     height: 20px;
-    background: url('../../img/icons/icon-search.png') no-repeat center / 20px;
+    background: url('../img/icons/icon-search.png') no-repeat center / 20px;
     border: 0;
 
     &:active {
@@ -233,7 +233,7 @@
     margin-right: 11px;
     width: 25px;
     height: 25px;
-    background: url('../../img/icons/icon-mail.png') no-repeat center / 23px;
+    background: url('../img/icons/icon-mail.png') no-repeat center / 23px;
 }
 .header-contacts-email-text {
     display: inline-block;
@@ -257,7 +257,7 @@
     margin-right: 11px;
     width: 25px;
     height: 25px;
-    background: url('../../img/icons/icon-phone.png') no-repeat center / 25px;
+    background: url('../img/icons/icon-phone.png') no-repeat center / 25px;
     
 }
 .header-contacts-phone-number {
@@ -333,7 +333,7 @@
     height: 22px;
     width: 27px;
     border: 0;
-    background: url('../../img/icons/icon-cart-header.png') no-repeat center;
+    background: url('../img/icons/icon-cart-header.png') no-repeat center;
 }
 .header-cart-counter {
     height: 26px;
@@ -580,7 +580,7 @@
     }
     .header-catalog-dropdown-link {
         position: relative;
-        background-image: url('../../img/icons/icon-arrow-down.png');
+        background-image: url('../img/icons/icon-arrow-down.png');
         background-size: 14px;
         z-index: 2;
         &:hover {
